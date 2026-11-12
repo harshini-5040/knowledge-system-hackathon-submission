@@ -1,0 +1,39 @@
+# Supplied participant-kit materials and website data: never publish
+snapshots/
+snapshots_zip/
+*.zip
+harness/
+eval/
+starter/
+results*/
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets*
+
+# Editor / OS / temp
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+tmp/
